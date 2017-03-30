@@ -1,0 +1,54 @@
+{
+   ".\\index.js":{
+      "5":{
+         "begin":5,
+         "end":5,
+         "codeStart":6,
+         "content":"todo file list\r\n",
+         "info":{
+            "type":"singleline"
+         },
+         "code":"var urls = process.argv.slice(2)"
+      },
+      "8":{
+         "begin":8,
+         "end":8,
+         "codeStart":9,
+         "content":"object output\r\n",
+         "info":{
+            "type":"singleline"
+         },
+         "code":"var output = {};"
+      },
+      "13":{
+         "begin":13,
+         "end":13,
+         "codeStart":14,
+         "content":"TODO we use sync so we can get them all toghether\r\n",
+         "info":{
+            "type":"singleline"
+         },
+         "code":"\tvar data = fs.readFileSync(filename, 'utf8');"
+      },
+      "16":{
+         "begin":16,
+         "end":16,
+         "codeStart":17,
+         "content":"this asd is stupid, it want the object in this format todo\r\n",
+         "info":{
+            "type":"singleline"
+         },
+         "code":"\tvar pattern = { pattern: commentPattern(filename) };"
+      },
+      "18":{
+         "begin":18,
+         "end":18,
+         "codeStart":19,
+         "content":"extrtoDoacttodo comments to json\r\n",
+         "info":{
+            "type":"singleline"
+         },
+         "code":"\tvar report = commentExtract(data, pattern);"
+      }
+   }
+}
