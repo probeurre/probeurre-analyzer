@@ -20,4 +20,3 @@ WORKDIR="/probeurre-data/$WORKDIR/"
 
 # send to parser
 nodejs index.js "$WORKDIR/extracted.json" > "$WORKDIR/analyzed.json"
-
